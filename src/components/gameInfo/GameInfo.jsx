@@ -34,9 +34,11 @@ function GameInfo ({ currentPlayer, winner, onReset, isDraw }){
         winner === -1 && <Icon iconName = 'x' />
        }
        
-        
-       
      </>
+     }
+     {
+        isDraw &&    <h4>Empate!</h4>
+     
      }
      <Button
      onClick = {onReset}
