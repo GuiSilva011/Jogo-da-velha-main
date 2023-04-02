@@ -12,7 +12,7 @@ function Score ({scoreX, scoreCircle}){
                <h2>{scoreCircle}</h2>
             </div>
             <div className= {styles.scoreContent}>
-            <Icon iconName= 'X' />
+            <Icon iconName= 'x' />
             <h2>{scoreX}</h2>
             </div>
          </div>
